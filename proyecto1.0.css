@@ -1,0 +1,353 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
+
+header{
+    position: fixed;
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+    background-color: white;
+    left: 0;
+    top: 0;
+}
+
+main{
+    padding-top: 12rem;
+}
+
+
+h1, h2{
+    color: #0278AE;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h4{
+    color:black;
+}  
+
+
+@media screen and (max-width: 1173px) {
+    header{
+        position: absolute;
+        width: 100%;
+        height: auto;
+        display:inline;
+        align-items: center;
+        background-color: white;
+       
+    }
+   .contenedor_links{
+       align-items: center;
+       width: 100%;
+       height: auto;
+       
+   }
+
+   .contenedor_img{
+       margin-left: 27%;
+       width: 100%;
+       height: auto;
+       background-color: white;
+      
+   }
+
+   .nav_links li{
+   
+    display: inline-block;
+    padding: 0px 2rem;
+    }
+
+    .logo {
+        width: 100%;
+        height: auto;
+    }
+ 
+
+  
+}
+
+@media screen and (max-width: 635px) {
+    header{
+        position: absolute;
+    }
+    .nav_links{
+        
+        display: grid;
+        padding: 0 10px;
+        font-size: 20px;
+        
+    }
+
+   
+    
+}
+
+
+.contenedor_img{
+    width: 50%;
+    height: auto;
+    margin-right: 0;
+    
+}
+.logo{
+    width: 90%;
+    height: auto;
+  
+
+  
+   
+}
+.contenedor_links{
+    
+    align-items: center;
+    width: 100%;
+    height: auto;
+    
+}
+
+.nav_links{
+    
+    text-align: center;
+    
+  
+    list-style: none;
+}
+
+.nav_links li{
+   
+    display: inline-block;
+    padding: 0px 2rem;
+}
+
+.nav_links li a{
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+    
+}
+
+.nav_links li a:hover{
+    
+    color: rgb(0, 238, 255);
+}
+
+
+    
+
+.contenedor_nosotros{
+  
+    margin-top: 5%;
+    width: 100%;
+    height: auto;
+    
+    display: flex;
+}
+
+
+
+
+
+
+.contenedor_nosotros h3{
+    font-style: italic;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    
+}
+
+.text_nosotros1{
+    color: black;
+    
+    text-align:center;
+    
+}
+.text_nosotros2{
+    color: black;
+    
+    text-align: center;
+    
+}
+.text_nosotros3{
+    color: black;
+    
+    text-align: center;
+    
+}
+
+#carouselExampleIndicators{
+    margin-top: 4rem;
+    background-color: #c8d6e5;
+    width: 100%;
+    height: auto;
+    
+    
+}
+#carouselExampleIndicators img{
+    margin-left: 25% ;
+    width: 100%;
+    height: auto;
+  
+}
+
+
+.tittleServicios{
+    color: rgb(8, 104, 136);
+    font-family: 'Titillium Web', sans-serif;
+    margin-top: 1px;
+   text-align: center;
+   font-size: 5vh;
+}
+#ServiciosAncla{
+    margin-top: 2rem;
+    width: 100%;
+    height: 10rem;
+}
+.contenedorServicios{
+    margin-top: 4rem;
+    width: 100%;
+    height: auto;
+    
+    
+    
+}
+
+#linkServicios{
+    display: flex;
+}
+
+.Servicios1{
+    
+    width: 50%;
+    height: auto;
+    font-family: 'Titillium Web', sans-serif;
+    text-align: center;
+    
+    
+}
+
+.Servicios2{
+    width: 50%;
+    font-family: 'Titillium Web', sans-serif;
+    text-align: center;
+}
+
+.contfinanzas li{
+   color:rgb(177, 166, 166);
+    list-style: none;
+    
+}
+
+
+
+
+
+
+
+
+
+.contenedorContacto{
+    width: 100%;
+    height: auto;
+    
+    text-align: center;
+    
+    
+}
+
+
+
+
+
+.tittleOficinas{
+    font-family: 'Lobster', cursive;
+    margin-top: 10rem;
+    text-align: center;
+    color: rgb(8, 104, 136);
+    
+}
+
+.contenedorMap{
+    margin-top: 0;
+    width: 100%;
+    height: auto;
+   
+}
+
+.map{
+    padding-top: 1rem;
+    width: 100%;
+    height: 30rem;
+}
+
+
+.tittleContacto{
+    
+    color: rgb(8, 104, 136);
+    font-family: 'Lobster', cursive;
+    margin-top: 5rem;
+    text-align: center;
+}
+.contenedorForm{
+   
+    
+    width: 100%;
+    height: auto;
+ 
+   
+   
+}
+
+.formulario{
+    display: grid;
+    text-align: center;
+    padding-top: 3rem;
+   
+   
+}
+
+.campo{
+    margin-bottom: 2rem;
+}
+
+.text_consulta{
+    width: 25%;
+    height: 10rem;
+}
+
+
+.button{
+    border: none;
+    color: rgb(8, 104, 136);
+    margin-top: 2rem;
+    background-color: skyblue;
+    border-radius: 2rem;
+    margin-left: 45%;
+    width: 10%;
+    height: 80%;
+}
+
+.button:hover{
+    color:rgb(13, 162, 211) ;
+}
+
+footer{
+    margin-top: 2rem;
+    background-color: rgb(8, 104, 136);
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+footer p{
+    padding: 0 20px;
+    margin-left: 25%;
+    color: whitesmoke;
+   margin-top: 3rem;
+}
